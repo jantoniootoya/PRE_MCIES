@@ -18,25 +18,6 @@ El objetivo del proyecto es aplicar conceptos fundamentales de programación en 
 
 # Estructura del proyecto
 
-datamanager/
-│
-├── main.py
-├── data_loader.py
-├── processor.py
-├── exporter.py
-├── utils.py
-├── README.md
-│
-├── data/
-│   └── estudiantes_maestria.csv
-│
-├── output/
-│   └── resultados.json
-│
-└── tests/
-    └── test_processor.py
-
-
 Descripción de los módulos principales:
 
 | Archivo | Descripción |
@@ -210,7 +191,7 @@ Seleccionar opción:
 
 5
 
-Ingresar ruta de salida:
+Ingresar ruta de salida: (preferentemente output/resultados.json)
 
 1
 
@@ -256,7 +237,9 @@ Las pruebas verifican:
 
 # Autor
 Mg. Sc. (c) José Otoya-Barrenechea
+
 https://orcid.org/0009-0007-0702-6958
+
 Proyecto académico desarrollado para práctica de programación en Python aplicando manejo de datos, modularización y testing.
 """
 
